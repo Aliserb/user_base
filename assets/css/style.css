@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.search_section {
+    margin: 50px 0px;
+}
+
+.search_input {
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 10px;  
+}
+
+.search_row {
+    position: relative;
+}
+
+.search_row img {
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    height: 30px;
+}
+
+.card {
+    position: relative;
+}
+
+.user_card_link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.user_info_item {
+    position: relative;
+    z-index: 10;
+    width: fit-content;
+}
+
+.user_card {
+    margin-top: 20px;
+}
+
+.modal_sheet {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
+
+.modal_sheet.active {
+    display: flex;
+}
+
+.modal_box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 12;
+}
+
+.card-title {
+    margin-bottom: 24px;
+}
+
+.modal_box_info {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.modal_box_info_item.w-40 {
+    width: 40%;
+}
+
+.modal_box_info_item.w-60 {
+    width: 60%;
+}
+
+button.mfp-close {
+    position: absolute;
+    top: -20px;
+    z-index: 13;
+    background: blueviolet;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff !important;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+
+.overlay {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
